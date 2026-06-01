@@ -5,7 +5,7 @@ metadata:
   labels:
     app: mypod
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: mypod
   ports:
