@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: 954377119292.dkr.ecr.ap-south-1.amazonaws.com/myecrrepo:19-94cac6a
+         image: pradeep211031/employee-attendance-tracker:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
