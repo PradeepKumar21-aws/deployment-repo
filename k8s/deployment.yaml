@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-         image: pradeep211031/employee-attendance-tracker:latest
+          image: pradeep211031/employee-attendance-tracker:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
@@ -30,6 +30,3 @@ spec:
           env:
             - name: ENV
               value: "dev"
-
-
-
